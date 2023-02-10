@@ -1,0 +1,112 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h3,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+.detail-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  .detailVisual-container {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: blur(2px);
+    z-index: 0;
+  }
+  .detail-content {
+    color: #fff;
+    width: 1520px;
+    margin: 0 auto;
+    margin-top: 400px;
+    background-color: #333;
+
+    .detail-detailbox {
+      width: 100%;
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      z-index: 1;
+      .detail-leftbox {
+        width: 28%;
+        img {
+          width: 100%;
+        }
+      }
+      .detail-rightbox {
+        width: 70%;
+        .detail-rightmovie {
+          font-size: 2rem;
+        }
+        .detail-rightinfo {
+          padding-top: 40px;
+          font-size: 1.4rem;
+        }
+        .detail-rightstory {
+          padding-top: 20px;
+          font-size: 1.4rem;
+        }
+      }
+    }
+    .detail-actorbox {
+      padding-top: 10px;
+      margin: 0 auto;
+      width: 100%;
+      overflow: hidden;
+      div {
+        padding: 10px 10px;
+        width: 100%;
+        ul {
+          width: 100%;
+          height: 35vh;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          .swiper-pagination {
+            bottom: 30px;
+            .swiper-pagination-bullet {
+              background-color: #fff;
+            }
+          }
+          li {
+            width: 15vh;
+            height: 200px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            object-fit: cover;
+            .smallImgbox {
+              width: 100%;
+              height: 100%;
+              img {
+                width: 100%;
+                height: 100%;
+                border-radius: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .detail-reviewbox {
+      padding-top: 10px;
+      width: 100%;
+    }
+    .detail-recobox {
+      padding-top: 10px;
+      width: 100%;
+    }
+  }
+}
