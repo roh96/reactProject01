@@ -1,6 +1,26 @@
 import "./App.css";
 import axios from "axios";
-import { useState, useReducer, useEffect } from "react";
+//import { useState, useReducer, useEffect } from "react";
+
+import React, { useRef, useState, useReducer, useEffect } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation, Scrollbar, A11y } from "swiper";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import Main from "./component/Main";
+import Search from "./component/Search";
+import Detail from "./component/Detail";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+// import "./styles.css";
+
+// import required modules
+
 //import ReducerContext, { RContext } from "./ReducerContext";
 
 // {/* <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,18 +35,6 @@ const initData = {
 //fetchMovies();
 
 function App() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get(
-        "https://api.themoviedb.org/3/trending/all/day?api_key=c3fc32ee6b872288e925c8b8d9afedea"
-      )
-      .then((res) => {
-        setData(res.data.results);
-      });
-  }, []);
-
   function fetchMovies(state, action) {
     // return {
     //   list: [
@@ -36,36 +44,63 @@ function App() {
     // };
   }
 
-  console.log(data);
+  // console.log(dataTrend);
+  //console.log(dataPopular);
+  //console.log(dataBest);
 
   return (
-    <div className="App">
-      <h2>7일간 인기목록</h2>
+    <BrowserRouter>
+      <div className="App">
+        <header>
+          <div>
+            <div>
+              <h1>
+                <Link to="/">JustSearch</Link>
+              </h1>
+              <div>
+                <Link to="/search">
+                  <img src="./img/search.png"></img>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/search" element={<Search />} />
+            <Route path="/detail" element={<Detail />} />
+          </Routes>
+        </main>
 
-      <div className="listBox">
-        <ul>
-          {data &&
-            data.map((obj, k) => {
-              return (
-                <li key={k}>
-                  <img
-                    src="`https://image.tmdb.org/t/p/w500
-                  {obj.poster_path}`"
-                  ></img>
-                  <div>
-                    {obj.title}
-                    <div>
-                      {obj.release_date}
-                      <div>ㅇ</div>
-                      {obj.vote_average}
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-        </ul>
+        <footer>
+          <div>
+            <ul>
+              <li>
+                <a>
+                  <img src="./img/instagram.png"></img>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <img src="./img/facebook.png"></img>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <img src="./img/kakao-talk.png"></img>
+                </a>
+              </li>
+              <li>
+                <a>
+                  <img src="./img/twitter.png"></img>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
       </div>
-    </div>
+    </BrowserRouter>
   );
 }
 
