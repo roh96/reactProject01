@@ -47,14 +47,26 @@ span {
 .detail-container .detail-content .detail-detailbox .detail-rightbox {
   width: 70%;
 }
-.detail-container .detail-content .detail-detailbox .detail-rightbox .detail-rightmovie {
+.detail-container
+  .detail-content
+  .detail-detailbox
+  .detail-rightbox
+  .detail-rightmovie {
   font-size: 2rem;
 }
-.detail-container .detail-content .detail-detailbox .detail-rightbox .detail-rightinfo {
+.detail-container
+  .detail-content
+  .detail-detailbox
+  .detail-rightbox
+  .detail-rightinfo {
   padding-top: 40px;
   font-size: 1.4rem;
 }
-.detail-container .detail-content .detail-detailbox .detail-rightbox .detail-rightstory {
+.detail-container
+  .detail-content
+  .detail-detailbox
+  .detail-rightbox
+  .detail-rightstory {
   padding-top: 20px;
   font-size: 1.4rem;
 }
@@ -88,19 +100,26 @@ span {
   padding: 0;
   list-style: none;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   font-size: 0.75rem;
 }
 .detail-container .detail-content .detail-actorbox > div ul li .smallImgbox {
   width: 100%;
   height: 100%;
 }
-.detail-container .detail-content .detail-actorbox > div ul li .smallImgbox img {
+.detail-container
+  .detail-content
+  .detail-actorbox
+  > div
+  ul
+  li
+  .smallImgbox
+  img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .detail-container .detail-content .detail-reviewbox {
   padding-top: 20px;
@@ -147,7 +166,7 @@ span {
   padding: 0;
   list-style: none;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   font-size: 0.75rem;
 }
 .detail-container .detail-content .detail-recobox > div ul li .smallImgbox {
@@ -159,5 +178,5 @@ span {
   height: 100%;
   border-radius: 20px;
   -o-object-fit: cover;
-     object-fit: cover;
-}/*# sourceMappingURL=Detail.css.map */
+  object-fit: cover;
+} /*# sourceMappingURL=Detail.css.map */
