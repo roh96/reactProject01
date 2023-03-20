@@ -1,0 +1,208 @@
+{
+  "id": 11,
+  "page": 1,
+  "results": [
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 7102207,
+      "item_count": 4925,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "Movies",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 7113671,
+      "item_count": 3451,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "radarr",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 7102480,
+      "item_count": 1444,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "All Watched Films",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 7075790,
+      "item_count": 1288,
+      "iso_639_1": "es",
+      "list_type": "movie",
+      "name": "Accion",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 7054306,
+      "item_count": 1507,
+      "iso_639_1": "es",
+      "list_type": "movie",
+      "name": "Peliculas",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8168597,
+      "item_count": 13885,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "movies",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8219292,
+      "item_count": 51,
+      "iso_639_1": "es",
+      "list_type": "movie",
+      "name": "TOP",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8216029,
+      "item_count": 33,
+      "iso_639_1": "es",
+      "list_type": "movie",
+      "name": "70´s",
+      "poster_path": null
+    },
+    {
+      "description": "Weekly Box Office Nº1 from 1982",
+      "favorite_count": 0,
+      "id": 5576,
+      "item_count": 934,
+      "iso_639_1": "es",
+      "list_type": "movie",
+      "name": "Weekly Box Office Nº1 from 1982",
+      "poster_path": "/yTpKlgaNw3fEBndyDYPg3hRloR5.jpg"
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8220617,
+      "item_count": 233,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "watched",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8190314,
+      "item_count": 279,
+      "iso_639_1": "tr",
+      "list_type": "movie",
+      "name": "izlemişimmiş",
+      "poster_path": null
+    },
+    {
+      "description": "watched movies",
+      "favorite_count": 0,
+      "id": 44662,
+      "item_count": 2074,
+      "iso_639_1": "ar",
+      "list_type": "movie",
+      "name": "Watched",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 143813,
+      "item_count": 10527,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "MNR",
+      "poster_path": null
+    },
+    {
+      "description": "Peliculas que ya he visto",
+      "favorite_count": 0,
+      "id": 88225,
+      "item_count": 1322,
+      "iso_639_1": "es",
+      "list_type": "movie",
+      "name": "Peliculas Vistas",
+      "poster_path": null
+    },
+    {
+      "description": "New Bollywood silver screen",
+      "favorite_count": 0,
+      "id": 8232084,
+      "item_count": 400,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "1671282275306",
+      "poster_path": null
+    },
+    {
+      "description": "Completed",
+      "favorite_count": 0,
+      "id": 58462,
+      "item_count": 1271,
+      "iso_639_1": "es",
+      "list_type": "movie",
+      "name": "Movies Completed",
+      "poster_path": null
+    },
+    {
+      "description": "Todos os filmes que assisti....",
+      "favorite_count": 0,
+      "id": 8212025,
+      "item_count": 797,
+      "iso_639_1": "pt",
+      "list_type": "movie",
+      "name": "Meus Filmes",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 24413,
+      "item_count": 1380,
+      "iso_639_1": "zh",
+      "list_type": "movie",
+      "name": "电影",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8228031,
+      "item_count": 379,
+      "iso_639_1": "en",
+      "list_type": "movie",
+      "name": "Watched",
+      "poster_path": null
+    },
+    {
+      "description": "",
+      "favorite_count": 0,
+      "id": 8210295,
+      "item_count": 139,
+      "iso_639_1": "tr",
+      "list_type": "movie",
+      "name": "Tum Filmler",
+      "poster_path": null
+    }
+  ],
+  "total_pages": 107,
+  "total_results": 2135
+}
